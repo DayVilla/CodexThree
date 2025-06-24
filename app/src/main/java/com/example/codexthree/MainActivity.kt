@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+import com.example.codexthree.MatrixActivity
+
 class MainActivity : AppCompatActivity() {
 
     private val justASimpleTemporaryName : String = "GoBig"
@@ -23,5 +25,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.open_login_button).setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
+
     }
 }
