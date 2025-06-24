@@ -26,8 +26,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
-        findViewById<Button>(R.id.open_matrix_button).setOnClickListener {
-            startActivity(Intent(this, MatrixActivity::class.java))
-        }
     }
 }
