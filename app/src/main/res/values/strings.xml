@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CodexThree</string>
+    <string name="login">Login</string>
+    <string name="open_matrix">Matrix Animation</string>
 </resources>
