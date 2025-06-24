@@ -26,5 +26,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
+        findViewById<Button>(R.id.btnMatrix).setOnClickListener(){
+            val intent = Intent(this@MainActivity, MatrixActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
